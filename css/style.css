@@ -1,0 +1,405 @@
+/*NAV*/
+nav{
+    background-color: rgb(247, 234, 207);
+}
+
+
+.home_presentacion-estilo{
+    height: 400px;
+    background-image: url(../assets/images/wines-1761613_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.contacto-encabezado{
+    height: 300px;
+    background-image: url(../assets/images/cork-738603_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.vinos-encabezado{
+    height: 300px;
+    background-image: url(../assets/images/bodegas-12345.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.oferta-encabezado{
+    height: 300px;
+    background-image: url(../assets/images/red-wine-1129189_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px; 
+}
+.bodegas-encabezado{
+    height: 300px;
+    background-image: url(../assets/images/carousel_dos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px; 
+}
+.vinos-titulo{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: 300px;
+}
+.vinos-titulo h1{
+    color: blanchedalmond;
+    font-family: 'Caudex', serif;
+    letter-spacing: 10px;
+    font-size: 70px;
+    text-align: center;
+}
+.titulo-estilo, .subtitulo-estilo{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: 300px;
+}
+.titulo-estilo h1{
+    color: blanchedalmond;
+    font-family: 'Caudex', serif;
+    letter-spacing: 10px;
+    font-size: 70px;
+    text-align: center;
+}
+.subtitulo-estilo h2{
+    color: blanchedalmond;
+    font-family: 'Caudex', serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: 50px;
+}
+
+.carousel-inner{
+    margin-top: 70px;
+    width: 90%;
+    margin-left: 70px;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.7) ;
+}
+.carousel-caption h5{
+    font-size: 40px;
+    font-family: 'Caudex', serif;
+}
+.carousel-caption p{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: blanchedalmond;
+}
+
+.cita-estilo{
+    margin-top: 70px;
+}
+.cita-estilo p{
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+    font-style: italic;
+    position: relative;
+    bottom: 250px;
+    left: 120px;
+    width: 75%;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Caudex', serif;
+}
+.texto-visible{
+    transition: 1s;
+}
+.texto-oculto{
+    filter: opacity(0%);
+    transition: 1s;
+    position: relative;
+    bottom: 150px;
+}
+.cita-estilo:hover .texto-oculto{
+    filter: opacity(100%);
+}
+.cita-estilo:hover .texto-visible{
+    filter: opacity(0%);
+}
+.footer-estilo {
+    height: 200px;
+   }
+
+  .footer_imagenes-estilo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 60px; }
+  
+  .footer_texto-estilo {
+    font-family: "Open Sans", sans-serif;
+    color: rgba(44, 38, 30, 0.815);
+    padding-top: 50px;
+    letter-spacing: 10px;
+    width: 100%;
+    }
+  @media only screen and (max-width: 790px) {
+      .footer_texto-estilo{
+          font-size: 20px;
+      }
+  }
+  @media only screen and (min-width: 1024px) {
+    .footer_texto-estilo {
+      padding-left: 520px; }
+    .footer-estilo {
+      margin-top: 70px; }
+    }
+
+.vino-estandar{
+    margin: 22px;
+    margin-top: 40px;
+}
+.vino-estandar, h6 p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.vino-cerca{
+    margin-top: 100px;
+}
+.vino-cerca, h2{
+    text-align: center;
+}
+.imagen-vino{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+}
+.loQuiero{
+    position: relative;
+    bottom: 300px;
+}
+.loQuiero p{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(78, 90, 53);
+}
+@media only screen and (max-width: 790px){
+    .loQuiero{
+        position: relative;
+        bottom: 50px;
+    }
+}
+.bodegas_informacion-texto, p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(34, 23, 23, 0.87);
+    margin-top: 60px;
+}
+@media only screen and (max-width: 790px){
+    .bodegas_informacion-texto, p{
+        margin-left: 5px;
+        margin-right: 7px;
+        margin-top: 30px;
+    }
+    .bodegas_informacion-texto, h2{
+        font-size: 30px;
+    }
+}
+.bodegas-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.card{
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.40);
+}
+.titulo-bodega{
+    position: relative;
+    bottom: 150px;
+    font-size: 40px;
+    color: blanchedalmond;
+    font-family: 'Caudex', serif;
+    text-align: center;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 790px){
+    .bodegas-card{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 0;
+        padding-left: 2px;
+    }
+}
+.card-img-top{
+    filter: brightness(30%);
+    transition: 0.5s;
+}
+.card:hover img{
+    filter: brightness(100%);
+}
+.card:hover h5{
+    filter: opacity(0%);
+}
+.titulo-contacto{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-mercadoli{
+    position: relative;
+    left: 480px;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 790px){
+    .logo-mercadoli{
+        position: relative;
+        left: 75px;
+    }
+}
+.subtitulo-contacto{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.entidad-centrado{
+    padding-left: 120px;
+    
+}
+@media only screen and (max-width: 767px) {
+.formulario_datos-estilo {
+    position: relative;
+    left: 20px;
+    padding-top: 20px; }
+  .formulario_datos-estilo input {
+    margin-top: 2px;
+    margin-bottom: 2px; }
+  .formulario_datos-estilo textarea {
+    width: 90%; } }
+
+@media only screen and (min-width: 1024px) {
+  .formulario_datos-estilo {
+    padding-top: 30px;
+    position: relative;
+    left: 100px; }
+  .formulario_datos-estilo input {
+    width: 300px; } 
+.consulta-titulo{
+    padding-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+}
+
+.contacto_formulario-ubicacion {
+  padding-top: 50px; }
+
+  @media only screen and (max-width: 790px){
+    .home_presentacion-estilo{
+        height: 200px;
+        width: 100%;
+    }
+    .contacto-encabezado{
+        height: 200px;
+    }
+    .vinos-encabezado{
+        height: 200px;
+    }
+    .oferta-encabezado{
+        height: 200px; 
+    }
+    .bodegas-encabezado{
+        height: 200px; 
+    }
+    .vinos-titulo{
+        width: 100%;
+        height: 50px;
+        position: relative;
+        top: 40px;
+        left: 0px;
+    }
+    .vinos-titulo h1{
+        color: blanchedalmond;
+        font-family: 'Caudex', serif;
+        letter-spacing: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .titulo-estilo, .subtitulo-estilo{
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 0;
+    }
+    .titulo-estilo h1{
+        color: blanchedalmond;
+        font-family: 'Caudex', serif;
+        letter-spacing: 10px;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .subtitulo-estilo h2{
+        color: blanchedalmond;
+        font-family: 'Caudex', serif;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+        position: relative;
+        top: 20px;
+    }
+    .carousel-inner{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .cita-estilo{
+        margin-top: 70px;
+    }
+    .cita-estilo p{
+        position: relative;
+        bottom: 100px;
+        left: 50px;
+        width: 75%;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Caudex', serif;
+    }
+    .texto-visible{
+        transition: 1s;
+    }
+    .texto-oculto{
+        filter: opacity(0%);
+        transition: 1s;
+        position: relative;
+        bottom: 150px;
+    }
+    .cita-estilo:hover .texto-oculto{
+        filter: opacity(100%);
+    }
+    .cita-estilo:hover .texto-visible{
+        filter: opacity(0%);
+    }
+     
+}
