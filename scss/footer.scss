@@ -1,0 +1,33 @@
+$letra-oscura: rgba(44, 38, 30, 0.815);
+$dorado-claro: rgb(247, 234, 207);
+
+
+.footer-estilo {
+    height: 200px;
+    background-color: $dorado-claro;
+   }
+
+  .footer_imagenes-estilo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 60px; }
+  
+  .footer_texto-estilo {
+    font-family: "Open Sans", sans-serif;
+    color: rgba(44, 38, 30, 0.815);
+    padding-top: 50px;
+    letter-spacing: 10px;
+    width: 100%;
+    }
+  @media only screen and (max-width: 790px) {
+      .footer_texto-estilo{
+          font-size: 20px;
+      }
+  }
+  @media only screen and (min-width: 1024px) {
+    .footer_texto-estilo {
+      padding-left: 520px; }
+    .footer-estilo {
+      margin-top: 70px; }
+    }

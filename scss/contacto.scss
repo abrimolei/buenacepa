@@ -1,0 +1,31 @@
+
+
+.titulo-contacto{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-mercadoli{
+    position: relative;
+    left: 480px;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 790px){
+    .logo-mercadoli{
+        position: relative;
+        left: 75px;
+    }
+}
+.subtitulo-contacto{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.entidad-centrado{
+    padding-left: 120px;
+    
+}

@@ -1,0 +1,95 @@
+$fondo-negro:rgba(0, 0, 0, 0.7);
+$letra-clara: blanchedalmond;
+$letra-oscura: rgba(44, 38, 30, 0.815);
+
+ @media only screen and (max-width: 790px){
+    .home_presentacion-estilo{
+        height: 200px;
+        width: 100%;
+    }
+    .contacto-encabezado{
+        height: 200px;
+    }
+    .vinos-encabezado{
+        height: 200px;
+    }
+    .oferta-encabezado{
+        height: 200px; 
+    }
+    .bodegas-encabezado{
+        height: 200px; 
+    }
+    .vinos-titulo{
+        width: 100%;
+        height: 50px;
+        position: relative;
+        top: 40px;
+        left: 0px;
+    }
+    .vinos-titulo h1{
+        color: $letra-clara;
+        font-family: 'Caudex', serif;
+        letter-spacing: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .titulo-estilo, .subtitulo-estilo{
+        background-color: $fondo-negro;
+        width: 100%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 0;
+    }
+    .titulo-estilo h1{
+        color: $letra-clara;
+        font-family: 'Caudex', serif;
+        letter-spacing: 10px;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .subtitulo-estilo h2{
+        color: $letra-clara;
+        font-family: 'Caudex', serif;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+        position: relative;
+        top: 20px;
+    }
+    .carousel-inner{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .cita-estilo{
+        margin-top: 70px;
+    }
+    .cita-estilo p{
+        position: relative;
+        bottom: 100px;
+        left: 50px;
+        width: 75%;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Caudex', serif;
+    }
+    .texto-visible{
+        transition: 1s;
+    }
+    .texto-oculto{
+        filter: opacity(0%);
+        transition: 1s;
+        position: relative;
+        bottom: 150px;
+    }
+    .cita-estilo:hover .texto-oculto{
+        filter: opacity(100%);
+    }
+    .cita-estilo:hover .texto-visible{
+        filter: opacity(0%);
+    }
+     
+}

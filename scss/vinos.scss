@@ -1,0 +1,38 @@
+
+$oliva: rgb(78, 90, 53);
+
+
+.vino-estandar{
+    margin: 22px;
+    margin-top: 40px;
+}
+.vino-estandar, h6 p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.vino-cerca{
+    margin-top: 100px;
+}
+.vino-cerca, h2{
+    text-align: center;
+}
+.imagen-vino{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+}
+.loQuiero{
+    position: relative;
+    bottom: 300px;
+}
+.loQuiero p{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: $oliva;
+}
+@media only screen and (max-width: 790px){
+    .loQuiero{
+        position: relative;
+        bottom: 50px;
+    }
+}

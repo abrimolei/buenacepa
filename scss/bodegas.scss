@@ -1,0 +1,59 @@
+$fondo-negro:rgba(0, 0, 0, 0.7);
+$letra-clara: blanchedalmond;
+$letra-oscura: rgba(44, 38, 30, 0.815);
+
+
+.bodegas_informacion-texto, p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: $letra-oscura;
+    margin-top: 60px;
+}
+@media only screen and (max-width: 790px){
+    .bodegas_informacion-texto, p{
+        margin-left: 5px;
+        margin-right: 7px;
+        margin-top: 30px;
+    }
+    .bodegas_informacion-texto, h2{
+        font-size: 30px;
+    }
+}
+.bodegas-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.card{
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.40);
+}
+.titulo-bodega{
+    position: relative;
+    bottom: 150px;
+    font-size: 40px;
+    color: $letra-clara;
+    font-family: 'Caudex', serif;
+    text-align: center;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 790px){
+    .bodegas-card{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 0;
+        padding-left: 2px;
+    }
+}
+.card-img-top{
+    filter: brightness(30%);
+    transition: 0.5s;
+}
+.card:hover img{
+    filter: brightness(100%);
+}
+.card:hover h5{
+    filter: opacity(0%);
+}

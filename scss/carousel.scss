@@ -1,0 +1,21 @@
+$fondo-negro:rgba(0, 0, 0, 0.7);
+$letra-clara: blanchedalmond;
+
+
+.carousel-inner{
+    margin-top: 70px;
+    width: 90%;
+    margin-left: 70px;
+}
+.carousel-caption{
+    background-color: $fondo-negro ;
+}
+.carousel-caption h5{
+    font-size: 40px;
+    font-family: 'Caudex', serif;
+}
+.carousel-caption p{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: $letra-clara;
+}

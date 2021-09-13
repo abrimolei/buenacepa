@@ -1,0 +1,88 @@
+$fondo-negro:rgba(0, 0, 0, 0.7);
+$letra-clara: blanchedalmond;
+
+.home_presentacion-estilo{
+    height: 400px;
+    background-image: url(../assets/images/wines-1761613_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.contacto-encabezado{
+    height: 300px;
+    background-image: url(../assets/images/cork-738603_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.vinos-encabezado{
+    height: 300px;
+    background-image: url(../assets/images/bodegas-12345.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.oferta-encabezado{
+    height: 300px;
+    background-image: url(../assets/images/red-wine-1129189_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px; 
+}
+.bodegas-encabezado{
+    height: 300px;
+    background-image: url(../assets/images/carousel_dos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px; 
+}
+
+.vinos-titulo{
+    background-color: $fondo-negro;
+    width: 50%;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: 300px;
+}
+.vinos-titulo h1{
+    color: $letra-clara;
+    font-family: 'Caudex', serif;
+    letter-spacing: 10px;
+    font-size: 70px;
+    text-align: center;
+}
+.titulo-estilo, .subtitulo-estilo{
+    background-color: $fondo-negro;
+    width: 50%;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: 300px;
+}
+.titulo-estilo h1{
+    color: $letra-clara;
+    font-family: 'Caudex', serif;
+    letter-spacing: 10px;
+    font-size: 70px;
+    text-align: center;
+}
+.subtitulo-estilo h2{
+    color: $letra-clara;
+    font-family: 'Caudex', serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: 50px;
+}
